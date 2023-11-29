@@ -10,20 +10,20 @@ const Chef = () => (
       <img src={images.chef} alt="chef_image" />
     </div>
     <div className="app__wrapper_info">
-      <SubHeading title="Chef's word" />
-      <h1 className="headtext__cormorant">What we believe in</h1>
+      <SubHeading title="Filósofo y docente" />
+      <h1 className="headtext__cormorant">En lo que creemos</h1>
 
       <div className="app__chef-content">
         <div className="app__chef-content_quote">
           <img src={images.quote} alt="quote_image" />
-          <p className="p__opensans">Lorem ipsum dolor sit amet, consectetur adipiscing elit auctor sit .</p>
+          <p className="p__opensans">Oráculo de la pluma, verdugo de palabras. De noche, soy poeta, cuentacuentos, escritor y consultor filosófico. De día, psicopedagogo y maestro de filosofía .</p>
         </div>
-        <p className="p__opensans"> auctor sit iaculis in arcu. Vulputate nulla lobortis mauris eget sit. Nulla scelerisque scelerisque congue ac consequat, aliquam molestie lectus eu. Congue iaculis integer curabitur semper sit nunc. </p>
+        <p className="p__opensans"> “A veces no soy yo, simplemente soy lo que debo ser. Y pediría disculpas, pero soy en lo que me habéis convertido, soy producto de gente que a veces ni es, ni lo fueron. ¿Quieren saber quién soy? </p>
       </div>
 
       <div className="app__chef-sign">
-        <p>Kevin Luo</p>
-        <p className="p__opensans">Chef & Founder</p>
+        <p>JuanMo Giménez</p>
+        <p className="p__opensans">Profesor y filósofo</p>
         <img src={images.sign} alt="sign_image" />
       </div>
     </div>

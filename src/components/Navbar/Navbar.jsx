@@ -13,13 +13,13 @@ const Navbar = () => {
       </div>
       <ul className="app__navbar-links">
         <li className="p__opensans"><a href="#home">Home</a></li>
-        <li className="p__opensans"><a href="#about">About</a></li>
-        <li className="p__opensans"><a href="#menu">Menu</a></li>
-        <li className="p__opensans"><a href="#awards">Awards</a></li>
-        <li className="p__opensans"><a href="#contact">Contact</a></li>
+        <li className="p__opensans"><a href="#about">Sobre</a></li>
+        <li className="p__opensans"><a href="#menu">Servicios</a></li>
+        <li className="p__opensans"><a href="#awards">Proyectos</a></li>
+        <li className="p__opensans"><a href="#contact">Contacto</a></li>
       </ul>
       <div className="app__navbar-login">
-        <a href="#login" className="p__opensans">Log In / Registration</a>
+        <a href="#login" className="p__opensans">Login / Registro</a>
         <div />
         <a href="/" className="p__opensans">Book Table</a>
       </div>
