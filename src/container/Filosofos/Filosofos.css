@@ -1,0 +1,60 @@
+/* Filosofos.css */
+
+.app__wrapper_filo {
+    background-color: var(--color-black);
+    padding: 4rem 2rem; /* Ajusta el espaciado a la izquierda y derecha según sea necesario */
+    text-align: center;
+  }
+  
+  .app__header-h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 87px;
+    font-size: 70px;
+  }
+  
+  .subheading {
+    color: var(--color-golden);
+    font-family: var(--font-accent);
+    font-size: 24px;
+    margin-bottom: 1rem;
+  }
+  
+  .p__opensans {
+    color: var(--color-white);
+    margin: 2rem 0;
+  }
+  
+  .app__wrapper_img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+  }
+  
+  .foto-card {
+    position: relative;
+    width: calc(33.33% - 1rem);
+    margin-bottom: 2rem;
+  }
+  
+  .foto-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    transition: 0.5s ease;
+  }
+  
+  .foto-card:hover img {
+    opacity: 0.7;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .foto-card {
+      width: calc(50% - 1rem);
+    }
+  }
+  

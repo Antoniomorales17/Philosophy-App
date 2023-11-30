@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 import { SubHeading } from '../../components';
 import { images } from '../../constants';
@@ -10,7 +11,11 @@ const Header = () => (
       <SubHeading title="Pensamos y luego hablamos" />
       <h1 className="app__header-h1">Una forma de pensar</h1>
       <p className="p__opensans" style={{ margin: '2rem 0' }}>La competencia de enseñar a pensar.El pensamiento complejo en el siglo XXI </p>
-      <button type="button" className="custom__button">Explorar</button>
+      <Link to="/filosofos">
+        <button type="button" className="custom__button">
+          Explorar
+        </button>
+      </Link>
     </div>
 
     <div className="app__wrapper_img">

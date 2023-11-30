@@ -1,0 +1,55 @@
+.app__wrapper_plan {
+    background-color: var(--color-black);
+    padding: 4rem 2rem; /* Ajusta el espaciado a la izquierda y derecha según sea necesario */
+    text-align: center;
+  }
+
+  .app__header-h1 {
+    font-family: var(--font-base);
+    color: var(--color-golden);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    line-height: 87px;
+    font-size: 70px;
+  }
+  
+  .app__wrapper_img {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .foto-card {
+    margin: 10px;
+  }
+  
+  .modal {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%;
+    max-height: 90%;
+  }
+  
+  .overlay {
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .close-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: white;
+  }
+  
+  .modal-image {
+    max-width: 100%;
+    max-height: 100%;
+  }
+  
