@@ -1,5 +1,6 @@
 ### Philosophy App
-Logo de la Aplicación de Filosofía
+![mw2](https://i.imgur.com/elePQs4.png)
+
 
 ### Descripción General
 Bienvenido a la Aplicación de Filosofía, una aplicación de vanguardia diseñada para explorar el fascinante mundo de la filosofía. Esta aplicación está construida con React, con un enfoque principal en proporcionar una experiencia de usuario (UX) excepcional y asegurar una experiencia fluida en diferentes dispositivos mediante un sólido diseño responsive.
