@@ -79,4 +79,43 @@ const awards = [
   },
 ];
 
-export default { wines, cocktails, awards };
+
+const plan = [
+  {
+    imgUrl: images.plan,
+    title: 'Ciclo de filosofía',
+    subtitle: 'La Resistencia | Almería',
+  }, 
+  {
+    imgUrl: images.plan2,
+    title: 'Colegios y barrios',
+    subtitle: 'Barrio de los Almendros| La voz de Almería',
+  },
+  {
+    imgUrl: images.plan3,
+    title: 'Filosofía en la calle',
+    subtitle: 'La resistencia | Almería',
+  }, 
+  {
+    imgUrl: images.gallery01,
+    title: 'Cuento para nadie',
+    subtitle: 'Los relojes del sábado | Cabo de gata',
+  },
+  {
+    imgUrl: images.gallery02,
+    title: 'Pequeños filósofos',
+    subtitle: 'Ensayo filosófico | Universidad de Granada',
+  }, 
+  {
+    imgUrl: images.gallery03,
+    title: 'Cuento para nadie',
+    subtitle: 'Imperfección VII | Pozo del Cabo',
+  },
+  {
+    imgUrl: images.gallery04,
+    title: 'Nadie',
+    subtitle: 'Ensayo filosófico | Universidad de Granada',
+  }
+]
+
+export default { wines, cocktails, awards, plan };

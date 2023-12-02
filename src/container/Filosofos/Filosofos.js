@@ -9,7 +9,7 @@ const Filosofos = () => {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const botonCerrarStyle = {
-    background: 'var(--color-black)',
+    background: 'var(--color-golden)',
     color: 'var(--color-white)',
     padding: '10px 15px',
     border: 'none',
@@ -61,17 +61,21 @@ const Filosofos = () => {
           </div>
         ))}
       </div>
-      <Modal isOpen={modalIsOpen} onRequestClose={closeModal} contentLabel="Imagen en detalle">
+      <Modal
+        isOpen={modalIsOpen}
+        onRequestClose={closeModal}
+        contentLabel="Imagen en detalle"
+        className="react-modal-content"
+        overlayClassName="react-modal-overlay"
+      >
         {selectedImage && (
           <img
             src={selectedImage}
             alt="Detalle"
             style={{
               width: '100%',
-              maxWidth: '800px', // Ajusta según sea necesario
               height: 'auto',
               objectFit: 'contain',
-              boxShadow: '0 0 10px rgba(0, 0, 0, 0.2)',
               borderRadius: '8px',
             }}
           />

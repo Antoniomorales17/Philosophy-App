@@ -14,7 +14,7 @@ const Footer = () => (
       <div className="app__footer-links_contact">
         <h1 className="app__footer-headtext">Contáctanos</h1>
         <p className="p__opensans">
-           Almería, Coslada 20, España</p>
+           Almería, La resistencia, España</p>
         <p className="p__opensans">+34 647664536</p>
         <p className="p__opensans">+34 683022342</p>
       </div>
@@ -40,7 +40,7 @@ const Footer = () => (
     </div>
 
     <div className="footer__copyright">
-      <p className="p__opensans">2021 Antonio Morales</p>
+      <p className="p__opensans">2023 Antonio Morales</p>
     </div>
 
   </div>
