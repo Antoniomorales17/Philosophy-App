@@ -41,10 +41,10 @@ const Navbar = () => {
                 <GiGreekTemple fontSize={27} className="overlay__close" onClick={() => setToggleMenu(false)} />
                 <ul className="app__navbar-smallscreen_links">
                   <li onClick={() => handleScrollTo('home')}>Home</li>
-                  <li onClick={() => handleScrollTo('about')}>About</li>
+                  <li onClick={() => handleScrollTo('about')}>Sobre</li>
                   <li onClick={() => handleScrollTo('menu')}>Menu</li>
-                  <li onClick={() => handleScrollTo('awards')}>Awards</li>
-                  <li onClick={() => handleScrollTo('contact')}>Contact</li>
+                  <li onClick={() => handleScrollTo('awards')}>Proyectos</li>
+                  <li onClick={() => handleScrollTo('contact')}>Contacto</li>
                 </ul>
               </div>
             )}

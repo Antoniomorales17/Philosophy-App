@@ -6,6 +6,14 @@
     background: var(--color-black);
 
     padding: 1rem 2rem;
+
+    position: fixed;
+    top: 0;
+
+    
+
+    
+    
 }
 
 .app__navbar-logo {
