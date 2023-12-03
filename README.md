@@ -1,4 +1,5 @@
 ### Philosophy App
+![mw3](https://i.imgur.com/e956FaW.png)
 ![mw2](https://i.imgur.com/elePQs4.png)
 
 
